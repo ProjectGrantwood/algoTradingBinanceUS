@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"notebook.consolidatedRunButton": true,
+		"notebook.lineNumbers": "on",
+		"notebook.markup.fontSize": 12,
+		"notebook.outline.showCodeCells": true,
+		"notebook.output.textLineLimit": 10,
+		"notebook.outputFontFamily": "Monospace",
+		"notebook.outputFontSize": 12,
+		"notebook.outputLineHeight": 1.2,
+		"notebook.showFoldingControls": "always"
+	}
+}

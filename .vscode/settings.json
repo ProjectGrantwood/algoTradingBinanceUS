@@ -1,0 +1,23 @@
+{
+    "editor.renderWhitespace": "all",
+    "notebook.consolidatedRunButton": true,
+    "notebook.lineNumbers": "on",
+    "notebook.markup.fontSize": 12,
+    "notebook.outline.showCodeCells": true,
+    "notebook.output.textLineLimit": 10,
+    "notebook.showFoldingControls": "always",
+    "jupyter.themeMatplotlibPlots": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*_test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "notebook.output.lineHeight": 1.2,
+    "notebook.output.fontSize": 12,
+    "notebook.output.fontFamily": "Monospace"
+}

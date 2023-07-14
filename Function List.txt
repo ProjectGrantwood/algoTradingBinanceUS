@@ -1,0 +1,142 @@
+ALL TODO:
+
+    Lower Priority:
+
+        [TODO]-getCryptoWithdrawalHistory
+        [TODO]-getFiatWithdrawalHistory
+        [TODO]-getCryptoDepositAddress
+        [TODO]-getCryptoDepositHistory
+        [TODO]-getFiatDepositHistory
+        [TODO]-getConvertDustToBNBHistory
+        [TODO]-getBNBDustAssets
+        [TODO]-disableCryptoWithdrawal
+        [TODO]-enableCryptoWithdrawal
+        [TODO]-withdrawCrypto
+        [TODO]-withdrawFiat
+        [TODO]-depositCrypto
+        [TODO]-convertDust
+
+GET ENDPOINTS:
+
+    Unauthenticated:
+
+        General Data:
+
+            [COMPLETED]-pingServer
+            [COMPLETED]-getServerTime
+            [COMPLETED]-getTradingPairInfo
+
+        Trade Data:
+
+            [COMPLETED]-getTrades
+            [COMPLETED]-getHistoricalTrades
+            [COMPLETED]-getAggTrades
+            [COMPLETED]-getDepth
+            [COMPLETED]-getKlines
+
+        Price Data:
+
+            [COMPLETED]-getTickerPrice
+            [COMPLETED]-getAveragePrice
+            [COMPLETED]-getBestPrices
+            [COMPLETED]-get24HourChange
+            [COMPLETED]-getRollingWindowPriceChange
+
+    Authenticated:
+
+        General Data:
+
+            [COMPLETED]-getSystemStatus
+        
+        User Data:
+
+            [COMPLETED]-getAccount
+            [COMPLETED]-getAccountStatus
+            [COMPLETED]-getAPITradingStatus
+            [COMPLETED]-getAssetDistributionHistory
+            [COMPLETED]-getSpotOrderSnapshot
+            [COMPLETED]-getTradingFees
+            [COMPLETED]-get30DayTradingVolume
+
+        Sub-Account Data:
+
+            [IGNORE]-getSubAccountInformation
+            [IGNORE]-getSubAccountTransferHistory
+            [IGNORE]-getSubAccountAssets
+            [IGNORE]-getMasterAccountTotalUSDValue
+            [IGNORE]-getSubAccountStatusList
+        
+        Order Data:
+
+            [COMPLETED]-getOrderRateLimits
+            [COMPLETED]-getOrder
+            [COMPLETED]-getAllOpenOrders
+            [COMPLETED]-getTrades
+
+            [TODO - HIGH PRIORITY]-getOCOOrder
+            [TODO - HIGH PRIORITY]-getAllOCOOrders
+            [TODO - HIGH PRIORITY]-getOpenOCOOrders
+        
+        OTC Data:
+
+            [IGNORE]-getSupportedCoinPairs
+            [IGNORE]-getOTCTradeOrder
+            [IGNORE]-getAllOTCTradeOrders
+            [IGNORE]-getALlOCBSTradeOrders
+
+        Wallet Data:
+
+            [TODO - HIGH PRIORITY]-getWalletInformation
+
+            [TODO]-getCryptoWithdrawalHistory
+            [TODO]-getFiatWithdrawalHistory
+            [TODO]-getCryptoDepositAddress
+            [TODO]-getCryptoDepositHistory
+            [TODO]-getFiatDepositHistory
+            [IGNORE]-getSubAccountDepositAddress
+            [IGNORE]-getSubAccountDepositHistory
+            [TODO]-getConvertDustToBNBHistory
+            [TODO]-getBNBDustAssets
+            [IGNORE]-getStakingBalance
+            [IGNORE]-getStakingRewardsHistory
+
+POST and DELETE ENDPOINTS:
+
+    Authenticated:
+
+        User:
+
+            [TODO]-disableCryptoWithdrawal
+            [TODO]-enableCryptoWithdrawal
+            [IGNORE]-executeSubAccountTransfer
+
+        Order:
+
+            [COMPLETED]-marketBuy
+            [COMPLETED]-marketSell
+            [COMPLETED]-limitBuy
+            [COMPLETED]-limitSell
+            [COMPLETED]-takeProfit
+            [COMPLETED]-stopLoss
+            [COMPLETED]-takeProfitLimit
+            [COMPLETED]-stopLossLimit
+            [COMPLETED]-testOrder
+            [COMPLETED]-cancelOrder
+            [COMPLETED]-cancelOrdersForSymbol
+            [COMPLETED]-createOCOOrder
+            [COMPLETED]-cancelOCOOrder
+
+        OTCOrders:
+
+            [IGNORE]-reqeustForQuote
+            [IGNORE]-placeOTCOrder
+            
+        Wallet:
+
+            [TODO]-withdrawCrypto
+            [TODO]-withdrawFiat
+            [TODO]-depositCrypto
+            [TODO]-convertDust
+        
+
+
